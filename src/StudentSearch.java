@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//Merhaba ben Bedirhan
 public class StudentSearch {
     public boolean studentExists(ArrayList<Student> students, String id) throws Exception {
    if (students.isEmpty()) {
@@ -18,7 +18,7 @@ public Student findOne(ArrayList<Student> students, String name) throws Exceptio
 
    throw new Exception("There is no student with the given name!");
 }
-
+//FindAll method
 public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws Exception {
    ArrayList<Student> result = new ArrayList<Student>();
    for (Student student: students)
